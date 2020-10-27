@@ -81,16 +81,6 @@ const RegisterData = ({ }: NavProps<'RegisterData'>) => {
     )
 }
 
-/* Females: Your height in inches multiplied by 0.413 equals your stride length
-Males: Your height in inches multiplied by 0.415 equals your stride length */
-
-/* Calories Burned = #steps * .04 * BF * AF * SF
-
-Where BF, AF, and SF are the bmi, age, and speed factor. */
-
-/* 0.57 x peso = CaloriasPorMilha
-CaloriasporMilha / altura*0.413 F ou *0.415 M = calorias por passo */
-
 const styles = StyleSheet.create({
     contentHolder: {
         flex: 1,

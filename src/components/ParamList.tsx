@@ -3,6 +3,7 @@ import { StackNavigationProp } from "@react-navigation/stack"
 
 export type ParamList = {
     RegisterData: undefined
+    Main: undefined
 }
 
 export type NavProps<ScreenName extends keyof ParamList> = {
