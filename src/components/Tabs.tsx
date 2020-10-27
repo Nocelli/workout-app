@@ -2,6 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { Ionicons } from '@expo/vector-icons';
 import React from 'react'
 import Main from '../screens/main'
+import { Settings } from '../screens/settings';
 
 
 interface TabsProps { }
@@ -30,7 +31,7 @@ export const Tabs: React.FC<TabsProps> = ({ }) => {
             }}
         >
             <AppTabs.Screen name='Home' component={Main} />
-            <AppTabs.Screen name='Settings' component={Main} />
+            <AppTabs.Screen name='Settings' component={Settings} />
         </AppTabs.Navigator>
     )
 }

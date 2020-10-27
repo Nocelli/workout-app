@@ -4,7 +4,9 @@ import { AsyncStorage } from 'react-native'
 
 
 type User = null | {
-
+    weight: string,
+    hight: string,
+    gender: string
 }
 
 interface UserDataProviderProps { }
